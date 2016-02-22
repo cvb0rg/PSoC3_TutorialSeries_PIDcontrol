@@ -1,0 +1,3580 @@
+Loading plugins phase: Elapsed time ==> 0s.999ms
+Initializing data phase: Elapsed time ==> 0s.000ms
+<CYPRESSTAG name="CyDsfit arguments...">
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p E:\Win10\PSoC Creator\302_CarLab\SpeedControl.cydsn\SpeedControl.cyprj -d CY8C3866AXI-040 -s E:\Win10\PSoC Creator\302_CarLab\SpeedControl.cydsn\Generated_Source\PSoC3 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=BE</CYPRESSTAG>
+<CYPRESSTAG name="Design elaboration results...">
+</CYPRESSTAG>
+Elaboration phase: Elapsed time ==> 3s.702ms
+<CYPRESSTAG name="HDL generation results...">
+</CYPRESSTAG>
+HDL generation phase: Elapsed time ==> 0s.277ms
+<CYPRESSTAG name="Synthesis results...">
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp Verilog Synthesis Compiler: Version 6.3 IR 41
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  SpeedControl.v
+Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\bin/warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=BE -ya -.fftprj=E:\Win10\PSoC Creator\302_CarLab\SpeedControl.cydsn\SpeedControl.cyprj -dcpsoc3 SpeedControl.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  SpeedControl.v
+Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\bin/warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=BE -ya -.fftprj=E:\Win10\PSoC Creator\302_CarLab\SpeedControl.cydsn\SpeedControl.cyprj -dcpsoc3 SpeedControl.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  SpeedControl.v
+Program  :   vlogfe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=BE -ya -.fftprj=E:\Win10\PSoC Creator\302_CarLab\SpeedControl.cydsn\SpeedControl.cyprj -dcpsoc3 -verilog SpeedControl.v
+======================================================================
+
+vlogfe V6.3 IR 41:  Verilog parser
+Sat Feb 20 01:02:59 2016
+
+
+======================================================================
+Compiling:  SpeedControl.v
+Program  :   vpp
+Options  :    -yv2 -q10 SpeedControl.v
+======================================================================
+
+vpp V6.3 IR 41:  Verilog Pre-Processor
+Sat Feb 20 01:02:59 2016
+
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\OneTerminal\OneTerminal.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_Counter_v3_0\B_Counter_v3_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\not_v1_0\not_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_Timer_v2_70\B_Timer_v2_70.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_sync_v1_0\cy_sync_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\Debouncer_v1_0\Debouncer_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_PWM_v3_30\B_PWM_v3_30.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'
+
+vpp:  No errors.
+
+Library 'work' => directory 'lcpsoc3'
+General_symbol_table
+General_symbol_table
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Using control file 'SpeedControl.ctl'.
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_Timer_v2_70\B_Timer_v2_70.v (line 368, col 46):  Note: Substituting module 'cmp_vv_vv' for '='.
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_Timer_v2_70\B_Timer_v2_70.v (line 374, col 62):  Note: Substituting module 'add_vv_vv' for '+'.
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_PWM_v3_30\B_PWM_v3_30.v (line 947, col 46):  Note: Substituting module 'sub_vi_vv' for '-'.
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_PWM_v3_30\B_PWM_v3_30.v (line 977, col 46):  Note: Substituting module 'add_vi_vv' for '+'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
+
+vlogfe:  No errors.
+
+
+======================================================================
+Compiling:  SpeedControl.v
+Program  :   tovif
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=BE -ya -.fftprj=E:\Win10\PSoC Creator\302_CarLab\SpeedControl.cydsn\SpeedControl.cyprj -dcpsoc3 -verilog SpeedControl.v
+======================================================================
+
+tovif V6.3 IR 41:  High-level synthesis
+Sat Feb 20 01:03:00 2016
+
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'E:\Win10\PSoC Creator\302_CarLab\SpeedControl.cydsn\codegentemp\SpeedControl.ctl'.
+Linking 'E:\Win10\PSoC Creator\302_CarLab\SpeedControl.cydsn\codegentemp\SpeedControl.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\OneTerminal\OneTerminal.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_Counter_v3_0\B_Counter_v3_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\not_v1_0\not_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_Timer_v2_70\B_Timer_v2_70.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_sync_v1_0\cy_sync_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\Debouncer_v1_0\Debouncer_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_PWM_v3_30\B_PWM_v3_30.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\lcpsoc3\stdlogic\mod_cnst.vif'.
+
+tovif:  No errors.
+
+
+======================================================================
+Compiling:  SpeedControl.v
+Program  :   topld
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=BE -ya -.fftprj=E:\Win10\PSoC Creator\302_CarLab\SpeedControl.cydsn\SpeedControl.cyprj -dcpsoc3 -verilog SpeedControl.v
+======================================================================
+
+topld V6.3 IR 41:  Synthesis and optimization
+Sat Feb 20 01:03:02 2016
+
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'E:\Win10\PSoC Creator\302_CarLab\SpeedControl.cydsn\codegentemp\SpeedControl.ctl'.
+Linking 'E:\Win10\PSoC Creator\302_CarLab\SpeedControl.cydsn\codegentemp\SpeedControl.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\OneTerminal\OneTerminal.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_Counter_v3_0\B_Counter_v3_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\not_v1_0\not_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_Timer_v2_70\B_Timer_v2_70.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_sync_v1_0\cy_sync_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\Debouncer_v1_0\Debouncer_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_PWM_v3_30\B_PWM_v3_30.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\lcpsoc3\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+    User names
+	Net_558
+	\hallTickCounter:Net_49\
+	\hallTickCounter:Net_82\
+	\hallTickCounter:Net_95\
+	\hallTickCounter:Net_91\
+	\hallTickCounter:Net_102\
+	\hallTickCounter:CounterUDB:ctrl_cmod_2\
+	\hallTickCounter:CounterUDB:ctrl_cmod_1\
+	\hallTickCounter:CounterUDB:ctrl_cmod_0\
+	\hallTickTimer:Net_260\
+	Net_541
+	Net_545
+	\hallTickTimer:Net_53\
+	\hallTickTimer:TimerUDB:ctrl_ten\
+	\hallTickTimer:TimerUDB:ctrl_tmode_1\
+	\hallTickTimer:TimerUDB:ctrl_tmode_0\
+	\hallTickTimer:TimerUDB:ctrl_ic_1\
+	\hallTickTimer:TimerUDB:ctrl_ic_0\
+	Net_544
+	\hallTickTimer:Net_102\
+	\hallTickTimer:Net_266\
+	Net_179
+	\PWM_GateVoltage:PWMUDB:km_run\
+	\PWM_GateVoltage:PWMUDB:ctrl_cmpmode2_2\
+	\PWM_GateVoltage:PWMUDB:ctrl_cmpmode2_1\
+	\PWM_GateVoltage:PWMUDB:ctrl_cmpmode2_0\
+	\PWM_GateVoltage:PWMUDB:ctrl_cmpmode1_2\
+	\PWM_GateVoltage:PWMUDB:ctrl_cmpmode1_1\
+	\PWM_GateVoltage:PWMUDB:ctrl_cmpmode1_0\
+	\PWM_GateVoltage:PWMUDB:capt_rising\
+	\PWM_GateVoltage:PWMUDB:capt_falling\
+	\PWM_GateVoltage:PWMUDB:trig_rise\
+	\PWM_GateVoltage:PWMUDB:trig_fall\
+	\PWM_GateVoltage:PWMUDB:sc_kill\
+	\PWM_GateVoltage:PWMUDB:min_kill\
+	\PWM_GateVoltage:PWMUDB:km_tc\
+	\PWM_GateVoltage:PWMUDB:db_tc\
+	\PWM_GateVoltage:PWMUDB:dith_sel\
+	\PWM_GateVoltage:PWMUDB:compare2\
+	\PWM_GateVoltage:Net_101\
+	Net_873
+	Net_874
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_31\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_30\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_29\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_28\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_27\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_26\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_25\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_24\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_23\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_22\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_21\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_20\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_19\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_18\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_17\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_16\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_15\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_14\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_13\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_12\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_11\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_10\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_9\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_8\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_7\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_6\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_5\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_4\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_3\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_2\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_1\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:b_0\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_31\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_30\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_29\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_28\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_27\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_26\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_25\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_24\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_31\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_30\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_29\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_28\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_27\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_26\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_25\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_24\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_23\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_22\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_21\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_20\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_19\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_18\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_17\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_16\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_15\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_14\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_13\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_12\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_11\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_10\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_9\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_8\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_7\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_6\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_5\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_4\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_3\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_2\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_1\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:b_0\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_31\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_30\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_29\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_28\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_27\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_26\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_25\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_24\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_23\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_22\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_21\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_20\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_19\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_18\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_17\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_16\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_15\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_14\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_13\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_12\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_11\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_10\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_9\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_8\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_7\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_6\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_5\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_4\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_3\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_2\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_31\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_30\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_29\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_28\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_27\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_26\
+	\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_25\
+	Net_875
+	Net_872
+	\PWM_GateVoltage:Net_113\
+	\PWM_GateVoltage:Net_107\
+	\PWM_GateVoltage:Net_114\
+
+    Synthesized names
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_31\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_30\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_29\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_28\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_27\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_26\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_25\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_24\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_23\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_22\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_21\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_20\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_19\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_18\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_17\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_16\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_15\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_14\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_13\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_12\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_11\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_10\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_9\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_8\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_7\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_6\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_5\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_4\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_3\
+	\PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_2\
+
+Deleted 156 User equations/components.
+Deleted 30 Synthesized equations/components.
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+Aliasing one to tmpOE__hallEffectSensor_net_0
+Aliasing \LCD:tmpOE__LCDPort_net_6\ to tmpOE__hallEffectSensor_net_0
+Aliasing \LCD:tmpOE__LCDPort_net_5\ to tmpOE__hallEffectSensor_net_0
+Aliasing \LCD:tmpOE__LCDPort_net_4\ to tmpOE__hallEffectSensor_net_0
+Aliasing \LCD:tmpOE__LCDPort_net_3\ to tmpOE__hallEffectSensor_net_0
+Aliasing \LCD:tmpOE__LCDPort_net_2\ to tmpOE__hallEffectSensor_net_0
+Aliasing \LCD:tmpOE__LCDPort_net_1\ to tmpOE__hallEffectSensor_net_0
+Aliasing \LCD:tmpOE__LCDPort_net_0\ to tmpOE__hallEffectSensor_net_0
+Aliasing tmpOE__LED_Status_net_0 to tmpOE__hallEffectSensor_net_0
+Aliasing \hallTickCounter:Net_89\ to tmpOE__hallEffectSensor_net_0
+Aliasing \hallTickCounter:CounterUDB:ctrl_capmode_1\ to zero
+Aliasing \hallTickCounter:CounterUDB:ctrl_capmode_0\ to zero
+Aliasing \hallTickCounter:CounterUDB:capt_rising\ to zero
+Aliasing Net_506 to zero
+Aliasing \hallTickCounter:CounterUDB:tc_i\ to \hallTickCounter:CounterUDB:reload_tc\
+Aliasing \hallTickTimer:TimerUDB:ctrl_cmode_1\ to zero
+Aliasing \hallTickTimer:TimerUDB:ctrl_cmode_0\ to tmpOE__hallEffectSensor_net_0
+Aliasing \hallTickTimer:TimerUDB:trigger_enable\ to tmpOE__hallEffectSensor_net_0
+Aliasing \hallTickTimer:TimerUDB:status_6\ to zero
+Aliasing \hallTickTimer:TimerUDB:status_5\ to zero
+Aliasing \hallTickTimer:TimerUDB:status_4\ to zero
+Aliasing \hallTickTimer:TimerUDB:status_0\ to \hallTickTimer:TimerUDB:tc_i\
+Aliasing tmpOE__pushButton_net_0 to tmpOE__hallEffectSensor_net_0
+Aliasing tmpOE__LED_net_0 to tmpOE__hallEffectSensor_net_0
+Aliasing tmpOE__SyncOut_net_0 to tmpOE__hallEffectSensor_net_0
+Aliasing tmpOE__Pin_1_net_0 to tmpOE__hallEffectSensor_net_0
+Aliasing \PWM_GateVoltage:PWMUDB:hwCapture\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:trig_out\ to tmpOE__hallEffectSensor_net_0
+Aliasing \PWM_GateVoltage:PWMUDB:runmode_enable\\R\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:runmode_enable\\S\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:ltch_kill_reg\\R\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:ltch_kill_reg\\S\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:min_kill_reg\\R\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:min_kill_reg\\S\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:final_kill\ to tmpOE__hallEffectSensor_net_0
+Aliasing \PWM_GateVoltage:PWMUDB:dith_count_1\\R\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:dith_count_1\\S\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:dith_count_0\\R\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:dith_count_0\\S\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:reset\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:status_6\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:status_4\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:cmp2\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:cmp1_status_reg\\R\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:cmp1_status_reg\\S\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:cmp2_status_reg\\R\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:cmp2_status_reg\\S\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:final_kill_reg\\R\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:final_kill_reg\\S\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:cs_addr_0\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:pwm1_i\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:pwm2_i\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_23\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_22\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_21\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_20\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_19\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_18\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_17\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_16\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_15\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_14\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_13\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_12\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_11\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_10\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_9\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_8\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_7\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_6\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_5\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_4\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_3\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_2\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_0\ to tmpOE__hallEffectSensor_net_0
+Aliasing tmpOE__MOSFET_Gate_net_0 to tmpOE__hallEffectSensor_net_0
+Aliasing \hallTickCounter:CounterUDB:prevCapture\\D\ to zero
+Aliasing \hallTickCounter:CounterUDB:cmp_out_reg_i\\D\ to \hallTickCounter:CounterUDB:prevCompare\\D\
+Aliasing \hallTickTimer:TimerUDB:capture_last\\D\ to \hallTickCounter:CounterUDB:count_stored_i\\D\
+Aliasing \hallTickTimer:TimerUDB:hwEnable_reg\\D\ to \hallTickTimer:TimerUDB:run_mode\
+Aliasing \hallTickTimer:TimerUDB:capture_out_reg_i\\D\ to \hallTickTimer:TimerUDB:capt_fifo_load_int\
+Aliasing \PWM_GateVoltage:PWMUDB:min_kill_reg\\D\ to tmpOE__hallEffectSensor_net_0
+Aliasing \PWM_GateVoltage:PWMUDB:prevCapture\\D\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:trig_last\\D\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:ltch_kill_reg\\D\ to tmpOE__hallEffectSensor_net_0
+Aliasing \PWM_GateVoltage:PWMUDB:prevCompare1\\D\ to \PWM_GateVoltage:PWMUDB:pwm_temp\
+Aliasing \PWM_GateVoltage:PWMUDB:tc_i_reg\\D\ to \PWM_GateVoltage:PWMUDB:status_2\
+Removing Lhs of wire one[7] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire \LCD:tmpOE__LCDPort_net_6\[10] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire \LCD:tmpOE__LCDPort_net_5\[11] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire \LCD:tmpOE__LCDPort_net_4\[12] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire \LCD:tmpOE__LCDPort_net_3\[13] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire \LCD:tmpOE__LCDPort_net_2\[14] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire \LCD:tmpOE__LCDPort_net_1\[15] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire \LCD:tmpOE__LCDPort_net_0\[16] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire tmpOE__LED_Status_net_0[34] = tmpOE__hallEffectSensor_net_0[1]
+Removing Rhs of wire Net_172[53] = \hallTickCounter:Net_43\[54]
+Removing Lhs of wire \hallTickCounter:Net_89\[58] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire \hallTickCounter:CounterUDB:ctrl_capmode_1\[68] = zero[2]
+Removing Lhs of wire \hallTickCounter:CounterUDB:ctrl_capmode_0\[69] = zero[2]
+Removing Lhs of wire \hallTickCounter:CounterUDB:ctrl_enable\[81] = \hallTickCounter:CounterUDB:control_7\[73]
+Removing Lhs of wire \hallTickCounter:CounterUDB:capt_rising\[83] = zero[2]
+Removing Lhs of wire \hallTickCounter:CounterUDB:capt_falling\[84] = \hallTickCounter:CounterUDB:prevCapture\[82]
+Removing Lhs of wire Net_506[88] = zero[2]
+Removing Lhs of wire \hallTickCounter:CounterUDB:final_enable\[90] = \hallTickCounter:CounterUDB:control_7\[73]
+Removing Lhs of wire \hallTickCounter:CounterUDB:counter_enable\[91] = \hallTickCounter:CounterUDB:control_7\[73]
+Removing Rhs of wire \hallTickCounter:CounterUDB:status_0\[92] = \hallTickCounter:CounterUDB:cmp_out_status\[93]
+Removing Rhs of wire \hallTickCounter:CounterUDB:status_1\[94] = \hallTickCounter:CounterUDB:per_zero\[95]
+Removing Rhs of wire \hallTickCounter:CounterUDB:status_2\[96] = \hallTickCounter:CounterUDB:overflow_status\[97]
+Removing Rhs of wire \hallTickCounter:CounterUDB:status_3\[98] = \hallTickCounter:CounterUDB:underflow_status\[99]
+Removing Lhs of wire \hallTickCounter:CounterUDB:status_4\[100] = \hallTickCounter:CounterUDB:hwCapture\[86]
+Removing Rhs of wire \hallTickCounter:CounterUDB:status_5\[101] = \hallTickCounter:CounterUDB:fifo_full\[102]
+Removing Rhs of wire \hallTickCounter:CounterUDB:status_6\[103] = \hallTickCounter:CounterUDB:fifo_nempty\[104]
+Removing Lhs of wire \hallTickCounter:CounterUDB:dp_dir\[107] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire \hallTickCounter:CounterUDB:tc_i\[112] = \hallTickCounter:CounterUDB:reload_tc\[89]
+Removing Rhs of wire \hallTickCounter:CounterUDB:cmp_out_i\[114] = \hallTickCounter:CounterUDB:cmp_less\[115]
+Removing Rhs of wire Net_559[118] = \hallTickCounter:CounterUDB:cmp_out_reg_i\[117]
+Removing Lhs of wire \hallTickCounter:CounterUDB:cs_addr_2\[122] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire \hallTickCounter:CounterUDB:cs_addr_1\[123] = \hallTickCounter:CounterUDB:count_enable\[121]
+Removing Lhs of wire \hallTickCounter:CounterUDB:cs_addr_0\[124] = \hallTickCounter:CounterUDB:reload\[87]
+Removing Lhs of wire \hallTickTimer:TimerUDB:ctrl_enable\[185] = \hallTickTimer:TimerUDB:control_7\[177]
+Removing Lhs of wire \hallTickTimer:TimerUDB:ctrl_cmode_1\[187] = zero[2]
+Removing Lhs of wire \hallTickTimer:TimerUDB:ctrl_cmode_0\[188] = tmpOE__hallEffectSensor_net_0[1]
+Removing Rhs of wire \hallTickTimer:TimerUDB:timer_enable\[196] = \hallTickTimer:TimerUDB:runmode_enable\[208]
+Removing Rhs of wire \hallTickTimer:TimerUDB:run_mode\[197] = \hallTickTimer:TimerUDB:hwEnable\[198]
+Removing Lhs of wire \hallTickTimer:TimerUDB:run_mode\[197] = \hallTickTimer:TimerUDB:control_7\[177]
+Removing Lhs of wire \hallTickTimer:TimerUDB:trigger_enable\[200] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire \hallTickTimer:TimerUDB:tc_i\[202] = \hallTickTimer:TimerUDB:status_tc\[199]
+Removing Lhs of wire \hallTickTimer:TimerUDB:capt_fifo_load_int\[207] = \hallTickTimer:TimerUDB:capt_fifo_load\[195]
+Removing Lhs of wire \hallTickTimer:TimerUDB:status_6\[210] = zero[2]
+Removing Lhs of wire \hallTickTimer:TimerUDB:status_5\[211] = zero[2]
+Removing Lhs of wire \hallTickTimer:TimerUDB:status_4\[212] = zero[2]
+Removing Lhs of wire \hallTickTimer:TimerUDB:status_0\[213] = \hallTickTimer:TimerUDB:status_tc\[199]
+Removing Lhs of wire \hallTickTimer:TimerUDB:status_1\[214] = \hallTickTimer:TimerUDB:capt_fifo_load\[195]
+Removing Rhs of wire \hallTickTimer:TimerUDB:status_2\[215] = \hallTickTimer:TimerUDB:fifo_full\[216]
+Removing Rhs of wire \hallTickTimer:TimerUDB:status_3\[217] = \hallTickTimer:TimerUDB:fifo_nempty\[218]
+Removing Lhs of wire \hallTickTimer:TimerUDB:cs_addr_2\[220] = zero[2]
+Removing Lhs of wire \hallTickTimer:TimerUDB:cs_addr_1\[221] = \hallTickTimer:TimerUDB:trig_reg\[209]
+Removing Lhs of wire \hallTickTimer:TimerUDB:cs_addr_0\[222] = \hallTickTimer:TimerUDB:per_zero\[201]
+Removing Lhs of wire tmpOE__pushButton_net_0[413] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire tmpOE__LED_net_0[419] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire tmpOE__SyncOut_net_0[425] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire tmpOE__Pin_1_net_0[431] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:ctrl_enable\[450] = \PWM_GateVoltage:PWMUDB:control_7\[442]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:hwCapture\[460] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:hwEnable\[461] = \PWM_GateVoltage:PWMUDB:control_7\[442]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:trig_out\[465] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:runmode_enable\\R\[467] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:runmode_enable\\S\[468] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:final_enable\[469] = \PWM_GateVoltage:PWMUDB:runmode_enable\[466]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:ltch_kill_reg\\R\[473] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:ltch_kill_reg\\S\[474] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:min_kill_reg\\R\[475] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:min_kill_reg\\S\[476] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:final_kill\[479] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_1\[483] = \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_1\[723]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:add_vi_vv_MODGEN_1_0\[485] = \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_0\[724]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:dith_count_1\\R\[486] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:dith_count_1\\S\[487] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:dith_count_0\\R\[488] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:dith_count_0\\S\[489] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:reset\[492] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:status_6\[493] = zero[2]
+Removing Rhs of wire \PWM_GateVoltage:PWMUDB:status_5\[494] = \PWM_GateVoltage:PWMUDB:final_kill_reg\[508]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:status_4\[495] = zero[2]
+Removing Rhs of wire \PWM_GateVoltage:PWMUDB:status_3\[496] = \PWM_GateVoltage:PWMUDB:fifo_full\[515]
+Removing Rhs of wire \PWM_GateVoltage:PWMUDB:status_1\[498] = \PWM_GateVoltage:PWMUDB:cmp2_status_reg\[507]
+Removing Rhs of wire \PWM_GateVoltage:PWMUDB:status_0\[499] = \PWM_GateVoltage:PWMUDB:cmp1_status_reg\[506]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:cmp2_status\[504] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:cmp2\[505] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:cmp1_status_reg\\R\[509] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:cmp1_status_reg\\S\[510] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:cmp2_status_reg\\R\[511] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:cmp2_status_reg\\S\[512] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:final_kill_reg\\R\[513] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:final_kill_reg\\S\[514] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:cs_addr_2\[516] = \PWM_GateVoltage:PWMUDB:tc_i\[471]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:cs_addr_1\[517] = \PWM_GateVoltage:PWMUDB:runmode_enable\[466]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:cs_addr_0\[518] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:compare1\[551] = \PWM_GateVoltage:PWMUDB:cmp1_less\[522]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:pwm1_i\[556] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:pwm2_i\[558] = zero[2]
+Removing Rhs of wire \PWM_GateVoltage:Net_96\[561] = \PWM_GateVoltage:PWMUDB:pwm_i_reg\[553]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:pwm_temp\[564] = \PWM_GateVoltage:PWMUDB:cmp1\[502]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_23\[605] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_22\[606] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_21\[607] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_20\[608] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_19\[609] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_18\[610] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_17\[611] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_16\[612] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_15\[613] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_14\[614] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_13\[615] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_12\[616] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_11\[617] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_10\[618] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_9\[619] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_8\[620] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_7\[621] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_6\[622] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_5\[623] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_4\[624] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_3\[625] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_2\[626] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_1\[627] = \PWM_GateVoltage:PWMUDB:MODIN1_1\[628]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODIN1_1\[628] = \PWM_GateVoltage:PWMUDB:dith_count_1\[482]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:a_0\[629] = \PWM_GateVoltage:PWMUDB:MODIN1_0\[630]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODIN1_0\[630] = \PWM_GateVoltage:PWMUDB:dith_count_0\[484]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_0\[762] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_0\[763] = tmpOE__hallEffectSensor_net_0[1]
+Removing Rhs of wire Net_820[764] = \PWM_GateVoltage:Net_96\[561]
+Removing Lhs of wire tmpOE__MOSFET_Gate_net_0[772] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire \hallTickCounter:CounterUDB:prevCapture\\D\[778] = zero[2]
+Removing Lhs of wire \hallTickCounter:CounterUDB:overflow_reg_i\\D\[779] = \hallTickCounter:CounterUDB:overflow\[106]
+Removing Lhs of wire \hallTickCounter:CounterUDB:underflow_reg_i\\D\[780] = \hallTickCounter:CounterUDB:underflow\[109]
+Removing Lhs of wire \hallTickCounter:CounterUDB:tc_reg_i\\D\[781] = \hallTickCounter:CounterUDB:reload_tc\[89]
+Removing Lhs of wire \hallTickCounter:CounterUDB:prevCompare\\D\[782] = \hallTickCounter:CounterUDB:cmp_out_i\[114]
+Removing Lhs of wire \hallTickCounter:CounterUDB:cmp_out_reg_i\\D\[783] = \hallTickCounter:CounterUDB:cmp_out_i\[114]
+Removing Lhs of wire \hallTickCounter:CounterUDB:count_stored_i\\D\[784] = Net_566[120]
+Removing Lhs of wire \hallTickTimer:TimerUDB:capture_last\\D\[785] = Net_566[120]
+Removing Lhs of wire \hallTickTimer:TimerUDB:tc_reg_i\\D\[786] = \hallTickTimer:TimerUDB:status_tc\[199]
+Removing Lhs of wire \hallTickTimer:TimerUDB:hwEnable_reg\\D\[787] = \hallTickTimer:TimerUDB:control_7\[177]
+Removing Lhs of wire \hallTickTimer:TimerUDB:capture_out_reg_i\\D\[788] = \hallTickTimer:TimerUDB:capt_fifo_load\[195]
+Removing Lhs of wire \Debouncer_1:DEBOUNCER[0]:d_sync_0\\D\[789] = Net_177[405]
+Removing Lhs of wire \Debouncer_1:DEBOUNCER[0]:d_sync_1\\D\[790] = \Debouncer_1:DEBOUNCER[0]:d_sync_0\[404]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:min_kill_reg\\D\[794] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:prevCapture\\D\[795] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:trig_last\\D\[796] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:ltch_kill_reg\\D\[799] = tmpOE__hallEffectSensor_net_0[1]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:prevCompare1\\D\[802] = \PWM_GateVoltage:PWMUDB:cmp1\[502]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:cmp1_status_reg\\D\[803] = \PWM_GateVoltage:PWMUDB:cmp1_status\[503]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:cmp2_status_reg\\D\[804] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:pwm_i_reg\\D\[806] = \PWM_GateVoltage:PWMUDB:pwm_i\[554]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:pwm1_i_reg\\D\[807] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:pwm2_i_reg\\D\[808] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:tc_i_reg\\D\[809] = \PWM_GateVoltage:PWMUDB:status_2\[497]
+
+------------------------------------------------------
+Aliased 0 equations, 151 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+Substituting virtuals - pass 1:
+
+Note:  Expanding virtual equation for 'tmpOE__hallEffectSensor_net_0' (cost = 0):
+tmpOE__hallEffectSensor_net_0 <=  ('1') ;
+
+Note:  Expanding virtual equation for 'zero' (cost = 0):
+zero <=  ('0') ;
+
+Note:  Expanding virtual equation for '\hallTickCounter:CounterUDB:capt_either_edge\' (cost = 0):
+\hallTickCounter:CounterUDB:capt_either_edge\ <= (\hallTickCounter:CounterUDB:prevCapture\);
+
+Note:  Expanding virtual equation for '\hallTickCounter:CounterUDB:overflow\' (cost = 0):
+\hallTickCounter:CounterUDB:overflow\ <= (\hallTickCounter:CounterUDB:per_equal\);
+
+Note:  Expanding virtual equation for '\hallTickCounter:CounterUDB:underflow\' (cost = 0):
+\hallTickCounter:CounterUDB:underflow\ <=  ('0') ;
+
+Note:  Expanding virtual equation for 'Net_548' (cost = 0):
+Net_548 <= (not Net_16);
+
+Note:  Expanding virtual equation for '\hallTickTimer:TimerUDB:fifo_load_polarized\' (cost = 1):
+\hallTickTimer:TimerUDB:fifo_load_polarized\ <= ((not \hallTickTimer:TimerUDB:capture_last\ and Net_566));
+
+Note:  Expanding virtual equation for '\hallTickTimer:TimerUDB:timer_enable\' (cost = 0):
+\hallTickTimer:TimerUDB:timer_enable\ <= (\hallTickTimer:TimerUDB:control_7\);
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:cmp1\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:cmp1\ <= (\PWM_GateVoltage:PWMUDB:cmp1_less\);
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_1\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_1\ <= (\PWM_GateVoltage:PWMUDB:dith_count_0\);
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_0\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_0\ <= (not \PWM_GateVoltage:PWMUDB:dith_count_0\);
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_17\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_17\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_9\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_9\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_2\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_2\ <= ((\PWM_GateVoltage:PWMUDB:dith_count_1\ and \PWM_GateVoltage:PWMUDB:dith_count_0\));
+
+
+Substituting virtuals - pass 2:
+
+Note:  Expanding virtual equation for '\hallTickCounter:CounterUDB:reload_tc\' (cost = 0):
+\hallTickCounter:CounterUDB:reload_tc\ <= (\hallTickCounter:CounterUDB:per_equal\);
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_1\' (cost = 2):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:s_1\ <= ((not \PWM_GateVoltage:PWMUDB:dith_count_0\ and \PWM_GateVoltage:PWMUDB:dith_count_1\)
+	OR (not \PWM_GateVoltage:PWMUDB:dith_count_1\ and \PWM_GateVoltage:PWMUDB:dith_count_0\));
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_18\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_18\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_10\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_10\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_3\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_3\ <=  ('0') ;
+
+
+Substituting virtuals - pass 3:
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_19\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_19\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_11\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_11\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_4\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_4\ <=  ('0') ;
+
+
+Substituting virtuals - pass 4:
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_20\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_20\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_12\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_12\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_5\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_5\ <=  ('0') ;
+
+
+Substituting virtuals - pass 5:
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_21\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_21\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_13\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_13\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_6\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_6\ <=  ('0') ;
+
+
+Substituting virtuals - pass 6:
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_22\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_22\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_14\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_14\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_7\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_7\ <=  ('0') ;
+
+
+Substituting virtuals - pass 7:
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_23\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_23\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_15\' (cost = 0):
+\PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_15\ <=  ('0') ;
+
+
+Substituting virtuals - pass 8:
+
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 33 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 3.
+----------------------------------------------------------
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+Aliasing \hallTickCounter:CounterUDB:hwCapture\ to zero
+Aliasing \hallTickCounter:CounterUDB:status_3\ to zero
+Aliasing \hallTickCounter:CounterUDB:underflow\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:final_capture\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_24\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_16\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\ to zero
+Aliasing \PWM_GateVoltage:PWMUDB:final_kill_reg\\D\ to zero
+Removing Lhs of wire \hallTickCounter:CounterUDB:hwCapture\[86] = zero[2]
+Removing Rhs of wire \hallTickCounter:CounterUDB:reload\[87] = \hallTickCounter:CounterUDB:per_equal\[108]
+Removing Lhs of wire \hallTickCounter:CounterUDB:status_3\[98] = zero[2]
+Removing Lhs of wire \hallTickCounter:CounterUDB:underflow\[109] = zero[2]
+Removing Lhs of wire \hallTickTimer:TimerUDB:trig_reg\[209] = \hallTickTimer:TimerUDB:control_7\[177]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:final_capture\[520] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_24\[733] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_16\[743] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\[753] = zero[2]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:runmode_enable\\D\[797] = \PWM_GateVoltage:PWMUDB:control_7\[442]
+Removing Lhs of wire \PWM_GateVoltage:PWMUDB:final_kill_reg\\D\[805] = zero[2]
+
+------------------------------------------------------
+Aliased 0 equations, 11 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+Eliminating unused logic - pass 1:
+
+
+Eliminating unused logic - pass 2:
+
+
+Substituting virtuals - pass 1:
+
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 0 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 3.
+----------------------------------------------------------
+
+topld:  No errors.
+
+CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp
+Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\bin/warp.exe
+Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=BE -ya "-.fftprj=E:\Win10\PSoC Creator\302_CarLab\SpeedControl.cydsn\SpeedControl.cyprj" -dcpsoc3 SpeedControl.v -verilog
+</CYPRESSTAG>
+Warp synthesis phase: Elapsed time ==> 5s.086ms
+<CYPRESSTAG name="Fitter results...">
+<CYPRESSTAG name="Fitter startup details...">
+cyp3fit: V3.3.0.7343, Family: PSoC3, Started at: Saturday, 20 February 2016 01:03:03
+Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=BE -ya -.fftprj=E:\Win10\PSoC Creator\302_CarLab\SpeedControl.cydsn\SpeedControl.cyprj -d CY8C3866AXI-040 SpeedControl.v -verilog
+</CYPRESSTAG>
+<CYPRESSTAG name="Design parsing">
+Design parsing phase: Elapsed time ==> 0s.047ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Tech mapping">
+<CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
+    Removed wire end \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_24\ kept zero
+    Removed wire end \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_16\ kept zero
+    Removed wire end \PWM_GateVoltage:PWMUDB:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_8\ kept zero
+    Converted constant MacroCell: \hallTickCounter:CounterUDB:prevCapture\ from registered to combinatorial
+    Converted constant MacroCell: \hallTickCounter:CounterUDB:underflow_reg_i\ from registered to combinatorial
+    Converted constant MacroCell: \PWM_GateVoltage:PWMUDB:prevCapture\ from registered to combinatorial
+    Converted constant MacroCell: \PWM_GateVoltage:PWMUDB:trig_last\ from registered to combinatorial
+    Converted constant MacroCell: \PWM_GateVoltage:PWMUDB:status_1\ from registered to combinatorial
+    Converted constant MacroCell: \PWM_GateVoltage:PWMUDB:status_5\ from registered to combinatorial
+    Converted constant MacroCell: \PWM_GateVoltage:PWMUDB:pwm1_i_reg\ from registered to combinatorial
+    Converted constant MacroCell: \PWM_GateVoltage:PWMUDB:pwm2_i_reg\ from registered to combinatorial
+Assigning clock timer_clock to clock BUS_CLK because it is a pass-through
+<CYPRESSTAG name="Global Clock Selection" icon="FILE_RPT_TECHM">
+    Digital Clock 0: Automatic-assigning  clock 'PWM_clock'. Fanout=1, Signal=Net_704
+    Digital Clock 1: Automatic-assigning  clock 'deBounce'. Fanout=1, Signal=Net_178
+</CYPRESSTAG>
+
+Removing unused cells resulting from optimization
+Done removing unused cells.
+<CYPRESSTAG name="UDB Clock/Enable Remapping Results">
+    UDB Clk/Enable \hallTickCounter:CounterUDB:clock_enable_block\: with output requested to be synchronous
+        ClockIn: BUS_CLK was determined to be a global clock that is synchronous to BUS_CLK
+        EnableIn: Constant 1 was determined to be synchronous to ClockIn
+        ClockOut: BUS_CLK, EnableOut: Constant 1
+    UDB Clk/Enable \hallTickCounter:CounterUDB:sCTRLReg:cy_psoc3_udb_Ctl_Clk_Sync\: with output requested to be synchronous
+        ClockIn: BUS_CLK was determined to be a global clock that is synchronous to BUS_CLK
+        EnableIn: Constant 1 was determined to be synchronous to ClockIn
+        ClockOut: BUS_CLK, EnableOut: Constant 1
+    UDB Clk/Enable \hallTickTimer:TimerUDB:clock_enable_block\: with output requested to be synchronous
+        ClockIn: BUS_CLK was determined to be a global clock that is synchronous to BUS_CLK
+        EnableIn: Constant 1 was determined to be synchronous to ClockIn
+        ClockOut: BUS_CLK, EnableOut: Constant 1
+    UDB Clk/Enable \hallTickTimer:TimerUDB:sCTRLReg:SyncCtl:cy_psoc3_udb_Ctl_Clk_Sync\: with output requested to be synchronous
+        ClockIn: BUS_CLK was determined to be a global clock that is synchronous to BUS_CLK
+        EnableIn: Constant 1 was determined to be synchronous to ClockIn
+        ClockOut: BUS_CLK, EnableOut: Constant 1
+    UDB Clk/Enable \Debouncer_1:ClkSync\: with output requested to be synchronous
+        ClockIn: deBounce was determined to be a global clock that is synchronous to BUS_CLK
+        EnableIn: Constant 1 was determined to be synchronous to ClockIn
+        ClockOut: deBounce, EnableOut: Constant 1
+    UDB Clk/Enable \PWM_GateVoltage:PWMUDB:clock_enable_block\: with output requested to be synchronous
+        ClockIn: PWM_clock was determined to be a global clock that is synchronous to BUS_CLK
+        EnableIn: Constant 1 was determined to be synchronous to ClockIn
+        ClockOut: PWM_clock, EnableOut: Constant 1
+</CYPRESSTAG>
+
+Removing unused cells resulting from optimization
+Done removing unused cells.
+<CYPRESSTAG name="Duplicate Macrocell detection">
+
+Removing duplicate macrocells
+    Removing \hallTickTimer:TimerUDB:capture_last\, Duplicate of \hallTickCounter:CounterUDB:count_stored_i\ 
+    MacroCell: Name=\hallTickTimer:TimerUDB:capture_last\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_566
+        );
+        Output = \hallTickTimer:TimerUDB:capture_last\ (fanout=1)
+
+    Removing Net_559, Duplicate of \hallTickCounter:CounterUDB:prevCompare\ 
+    MacroCell: Name=Net_559, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \hallTickCounter:CounterUDB:cmp_out_i\
+        );
+        Output = Net_559 (fanout=1)
+
+End removing duplicate macrocells: used 1 pass
+</CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Duplicate Macrocell detection">
+
+Removing unused cells resulting from optimization
+Done removing unused cells.
+</CYPRESSTAG>
+<CYPRESSTAG name="Design Equations" icon="FILE_RPT_EQUATION">
+
+------------------------------------------------------------
+Design Equations
+------------------------------------------------------------
+    <CYPRESSTAG name="Pin listing">
+
+    ------------------------------------------------------------
+    Pin listing
+    ------------------------------------------------------------
+
+    Pin : Name = hallEffectSensor(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: RES_PULL_UP
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => hallEffectSensor(0)__PA ,
+            fb => Net_16 ,
+            annotation => Net_15 ,
+            pad => hallEffectSensor(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = \LCD:LCDPort(0)\
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: False
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => \LCD:LCDPort(0)\__PA ,
+            pad => \LCD:LCDPort(0)_PAD\ );
+        Properties:
+        {
+        }
+
+    Pin : Name = \LCD:LCDPort(1)\
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: False
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => \LCD:LCDPort(1)\__PA ,
+            pad => \LCD:LCDPort(1)_PAD\ );
+        Properties:
+        {
+        }
+
+    Pin : Name = \LCD:LCDPort(2)\
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: False
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => \LCD:LCDPort(2)\__PA ,
+            pad => \LCD:LCDPort(2)_PAD\ );
+        Properties:
+        {
+        }
+
+    Pin : Name = \LCD:LCDPort(3)\
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: False
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => \LCD:LCDPort(3)\__PA ,
+            pad => \LCD:LCDPort(3)_PAD\ );
+        Properties:
+        {
+        }
+
+    Pin : Name = \LCD:LCDPort(4)\
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: False
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => \LCD:LCDPort(4)\__PA ,
+            pad => \LCD:LCDPort(4)_PAD\ );
+        Properties:
+        {
+        }
+
+    Pin : Name = \LCD:LCDPort(5)\
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: False
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => \LCD:LCDPort(5)\__PA ,
+            pad => \LCD:LCDPort(5)_PAD\ );
+        Properties:
+        {
+        }
+
+    Pin : Name = \LCD:LCDPort(6)\
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: False
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => \LCD:LCDPort(6)\__PA ,
+            pad => \LCD:LCDPort(6)_PAD\ );
+        Properties:
+        {
+        }
+
+    Pin : Name = LED_Status(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => LED_Status(0)__PA ,
+            annotation => Net_4822 ,
+            pad => LED_Status(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = pushButton(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: RES_PULL_UP
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => pushButton(0)__PA ,
+            fb => Net_309 ,
+            pad => pushButton(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = LED(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => LED(0)__PA ,
+            input => Net_566 ,
+            pad => LED(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = SyncOut(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => SyncOut(0)__PA ,
+            input => Net_172 ,
+            pad => SyncOut(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_1(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_1(0)__PA ,
+            input => \hallTickCounter:CounterUDB:prevCompare\ ,
+            pad => Pin_1(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = MOSFET_Gate(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => MOSFET_Gate(0)__PA ,
+            input => Net_820 ,
+            pad => MOSFET_Gate(0)_PAD );
+        Properties:
+        {
+        }
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Macrocell listing" icon="FILE_RPT_EQUATION">
+
+    ------------------------------------------------------------
+    Macrocell listing
+    ------------------------------------------------------------
+
+    MacroCell: Name=\hallTickCounter:CounterUDB:status_0\, Mode=(Combinatorial)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \hallTickCounter:CounterUDB:cmp_out_i\ * 
+              !\hallTickCounter:CounterUDB:prevCompare\
+        );
+        Output = \hallTickCounter:CounterUDB:status_0\ (fanout=1)
+
+    MacroCell: Name=\hallTickCounter:CounterUDB:status_2\, Mode=(Combinatorial)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \hallTickCounter:CounterUDB:reload\ * 
+              !\hallTickCounter:CounterUDB:overflow_reg_i\
+        );
+        Output = \hallTickCounter:CounterUDB:status_2\ (fanout=1)
+
+    MacroCell: Name=\hallTickCounter:CounterUDB:count_enable\, Mode=(Combinatorial)
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \hallTickCounter:CounterUDB:control_7\ * 
+              !\hallTickCounter:CounterUDB:count_stored_i\ * Net_566
+        );
+        Output = \hallTickCounter:CounterUDB:count_enable\ (fanout=1)
+
+    MacroCell: Name=\hallTickTimer:TimerUDB:capt_fifo_load\, Mode=(Combinatorial)
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\hallTickCounter:CounterUDB:count_stored_i\ * Net_566 * 
+              \hallTickTimer:TimerUDB:control_7\
+        );
+        Output = \hallTickTimer:TimerUDB:capt_fifo_load\ (fanout=5)
+
+    MacroCell: Name=\hallTickTimer:TimerUDB:status_tc\, Mode=(Combinatorial)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \hallTickTimer:TimerUDB:control_7\ * 
+              \hallTickTimer:TimerUDB:per_zero\
+        );
+        Output = \hallTickTimer:TimerUDB:status_tc\ (fanout=1)
+
+    MacroCell: Name=Net_567, Mode=(Combinatorial)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        !(
+              Net_16 * !Net_415
+        );
+        Output = Net_567 (fanout=1)
+
+    MacroCell: Name=\PWM_GateVoltage:PWMUDB:status_2\, Mode=(Combinatorial)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \PWM_GateVoltage:PWMUDB:runmode_enable\ * 
+              \PWM_GateVoltage:PWMUDB:tc_i\
+        );
+        Output = \PWM_GateVoltage:PWMUDB:status_2\ (fanout=1)
+
+    MacroCell: Name=__ONE__, Mode=(Combinatorial)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        !(
+            0
+        );
+        Output = __ONE__ (fanout=1)
+
+    MacroCell: Name=\hallTickCounter:CounterUDB:overflow_reg_i\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \hallTickCounter:CounterUDB:reload\
+        );
+        Output = \hallTickCounter:CounterUDB:overflow_reg_i\ (fanout=1)
+
+    MacroCell: Name=\hallTickCounter:CounterUDB:prevCompare\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \hallTickCounter:CounterUDB:cmp_out_i\
+        );
+        Output = \hallTickCounter:CounterUDB:prevCompare\ (fanout=2)
+
+    MacroCell: Name=\hallTickCounter:CounterUDB:count_stored_i\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_566
+        );
+        Output = \hallTickCounter:CounterUDB:count_stored_i\ (fanout=2)
+
+    MacroCell: Name=\Debouncer_1:DEBOUNCER[0]:d_sync_0\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_178) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_309
+        );
+        Output = \Debouncer_1:DEBOUNCER[0]:d_sync_0\ (fanout=2)
+
+    MacroCell: Name=\Debouncer_1:DEBOUNCER[0]:d_sync_1\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_178) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Debouncer_1:DEBOUNCER[0]:d_sync_0\
+        );
+        Output = \Debouncer_1:DEBOUNCER[0]:d_sync_1\ (fanout=1)
+
+    MacroCell: Name=Net_415, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_178) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Debouncer_1:DEBOUNCER[0]:d_sync_0\ * 
+              !\Debouncer_1:DEBOUNCER[0]:d_sync_1\
+        );
+        Output = Net_415 (fanout=1)
+
+    MacroCell: Name=\PWM_GateVoltage:PWMUDB:runmode_enable\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_704) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \PWM_GateVoltage:PWMUDB:control_7\
+        );
+        Output = \PWM_GateVoltage:PWMUDB:runmode_enable\ (fanout=3)
+
+    MacroCell: Name=\PWM_GateVoltage:PWMUDB:prevCompare1\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_704) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \PWM_GateVoltage:PWMUDB:cmp1_less\
+        );
+        Output = \PWM_GateVoltage:PWMUDB:prevCompare1\ (fanout=1)
+
+    MacroCell: Name=\PWM_GateVoltage:PWMUDB:status_0\, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_704) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\PWM_GateVoltage:PWMUDB:prevCompare1\ * 
+              \PWM_GateVoltage:PWMUDB:cmp1_less\
+        );
+        Output = \PWM_GateVoltage:PWMUDB:status_0\ (fanout=1)
+
+    MacroCell: Name=Net_820, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_704) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \PWM_GateVoltage:PWMUDB:runmode_enable\ * 
+              \PWM_GateVoltage:PWMUDB:cmp1_less\
+        );
+        Output = Net_820 (fanout=1)
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Datapath listing">
+
+    ------------------------------------------------------------
+    Datapath listing
+    ------------------------------------------------------------
+
+    datapathcell: Name =\hallTickCounter:CounterUDB:sC8:counterdp:u0\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            cs_addr_2 => __ONE__ ,
+            cs_addr_1 => \hallTickCounter:CounterUDB:count_enable\ ,
+            cs_addr_0 => \hallTickCounter:CounterUDB:reload\ ,
+            ce0_comb => \hallTickCounter:CounterUDB:reload\ ,
+            z0_comb => \hallTickCounter:CounterUDB:status_1\ ,
+            cl1_comb => \hallTickCounter:CounterUDB:cmp_out_i\ ,
+            f0_bus_stat_comb => \hallTickCounter:CounterUDB:status_6\ ,
+            f0_blk_stat_comb => \hallTickCounter:CounterUDB:status_5\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000010101000010100000010000001000000101010000101000011111111000000001111111111111111101000000000000000000001000000000000000000011000"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+
+    datapathcell: Name =\hallTickTimer:TimerUDB:sT32:timerdp:u0\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            cs_addr_1 => \hallTickTimer:TimerUDB:control_7\ ,
+            cs_addr_0 => \hallTickTimer:TimerUDB:per_zero\ ,
+            f0_load => \hallTickTimer:TimerUDB:capt_fifo_load\ ,
+            chain_out => \hallTickTimer:TimerUDB:sT32:timerdp:carry0\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000001000000000000000100000001000000010000000000000010000000000000001000000000000000100000000000000010000000000000001000000011111111000000001111111111111111000000000000000000000001000000000000000000011000"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+        Next in chain : \hallTickTimer:TimerUDB:sT32:timerdp:u1\
+
+    datapathcell: Name =\hallTickTimer:TimerUDB:sT32:timerdp:u1\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            cs_addr_1 => \hallTickTimer:TimerUDB:control_7\ ,
+            cs_addr_0 => \hallTickTimer:TimerUDB:per_zero\ ,
+            f0_load => \hallTickTimer:TimerUDB:capt_fifo_load\ ,
+            chain_in => \hallTickTimer:TimerUDB:sT32:timerdp:carry0\ ,
+            chain_out => \hallTickTimer:TimerUDB:sT32:timerdp:carry1\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000001000000000000000100000001000000010000000000000010000000000000001000000000000000100000000000000010000000000000001000000011111111000000001111111111111111100000110000000000000001000000110000000000011000"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+        Previous in chain : \hallTickTimer:TimerUDB:sT32:timerdp:u0\
+        Next in chain : \hallTickTimer:TimerUDB:sT32:timerdp:u2\
+
+    datapathcell: Name =\hallTickTimer:TimerUDB:sT32:timerdp:u2\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            cs_addr_1 => \hallTickTimer:TimerUDB:control_7\ ,
+            cs_addr_0 => \hallTickTimer:TimerUDB:per_zero\ ,
+            f0_load => \hallTickTimer:TimerUDB:capt_fifo_load\ ,
+            chain_in => \hallTickTimer:TimerUDB:sT32:timerdp:carry1\ ,
+            chain_out => \hallTickTimer:TimerUDB:sT32:timerdp:carry2\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000001000000000000000100000001000000010000000000000010000000000000001000000000000000100000000000000010000000000000001000000011111111000000001111111111111111100000110000000000000001000000110000000000011000"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+        Previous in chain : \hallTickTimer:TimerUDB:sT32:timerdp:u1\
+        Next in chain : \hallTickTimer:TimerUDB:sT32:timerdp:u3\
+
+    datapathcell: Name =\hallTickTimer:TimerUDB:sT32:timerdp:u3\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            cs_addr_1 => \hallTickTimer:TimerUDB:control_7\ ,
+            cs_addr_0 => \hallTickTimer:TimerUDB:per_zero\ ,
+            f0_load => \hallTickTimer:TimerUDB:capt_fifo_load\ ,
+            z0_comb => \hallTickTimer:TimerUDB:per_zero\ ,
+            f0_bus_stat_comb => \hallTickTimer:TimerUDB:status_3\ ,
+            f0_blk_stat_comb => \hallTickTimer:TimerUDB:status_2\ ,
+            chain_in => \hallTickTimer:TimerUDB:sT32:timerdp:carry2\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000001000000000000000100000001000000010000000000000010000000000000001000000000000000100000000000000010000000000000001000000011111111000000001111111111111111100000110000000000000001000000110000000000011000"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+        Previous in chain : \hallTickTimer:TimerUDB:sT32:timerdp:u2\
+
+    datapathcell: Name =\PWM_GateVoltage:PWMUDB:sP8:pwmdp:u0\
+        PORT MAP (
+            clock => Net_704 ,
+            cs_addr_2 => \PWM_GateVoltage:PWMUDB:tc_i\ ,
+            cs_addr_1 => \PWM_GateVoltage:PWMUDB:runmode_enable\ ,
+            cl0_comb => \PWM_GateVoltage:PWMUDB:cmp1_less\ ,
+            z0_comb => \PWM_GateVoltage:PWMUDB:tc_i\ ,
+            f1_blk_stat_comb => \PWM_GateVoltage:PWMUDB:status_3\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000001000000000000001100000001000000010000000000000011000000000000001100000000000000110000000000000011000000000000001100000011111111000000001111111111111111101000000000000000000100000000000000000000011000"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Status register listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="StatusI register listing">
+
+    ------------------------------------------------------------
+    StatusI register listing
+    ------------------------------------------------------------
+
+    statusicell: Name =\hallTickCounter:CounterUDB:sSTSReg:stsreg\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            status_6 => \hallTickCounter:CounterUDB:status_6\ ,
+            status_5 => \hallTickCounter:CounterUDB:status_5\ ,
+            status_2 => \hallTickCounter:CounterUDB:status_2\ ,
+            status_1 => \hallTickCounter:CounterUDB:status_1\ ,
+            status_0 => \hallTickCounter:CounterUDB:status_0\ ,
+            interrupt => Net_172 );
+        Properties:
+        {
+            cy_force_order = 1
+            cy_int_mask = "1111111"
+            cy_md_select = "0011111"
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+
+    statusicell: Name =\hallTickTimer:TimerUDB:rstSts:stsreg\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            status_3 => \hallTickTimer:TimerUDB:status_3\ ,
+            status_2 => \hallTickTimer:TimerUDB:status_2\ ,
+            status_1 => \hallTickTimer:TimerUDB:capt_fifo_load\ ,
+            status_0 => \hallTickTimer:TimerUDB:status_tc\ );
+        Properties:
+        {
+            cy_force_order = 1
+            cy_int_mask = "1111111"
+            cy_md_select = "0000011"
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+
+    statusicell: Name =\PWM_GateVoltage:PWMUDB:genblk8:stsreg\
+        PORT MAP (
+            clock => Net_704 ,
+            status_3 => \PWM_GateVoltage:PWMUDB:status_3\ ,
+            status_2 => \PWM_GateVoltage:PWMUDB:status_2\ ,
+            status_0 => \PWM_GateVoltage:PWMUDB:status_0\ );
+        Properties:
+        {
+            cy_force_order = 1
+            cy_int_mask = "1111111"
+            cy_md_select = "0100111"
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Sync listing">
+
+    ------------------------------------------------------------
+    Sync listing
+    ------------------------------------------------------------
+
+    synccell: Name =\Sync_1:genblk1[0]:INST\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            in => Net_567 ,
+            out => Net_566 );
+        Clock Polarity: Active High
+        Clock Enable: True
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Control register listing">
+
+    ------------------------------------------------------------
+    Control register listing
+    ------------------------------------------------------------
+
+    controlcell: Name =\hallTickCounter:CounterUDB:sCTRLReg:ctrlreg\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            control_7 => \hallTickCounter:CounterUDB:control_7\ ,
+            control_6 => \hallTickCounter:CounterUDB:control_6\ ,
+            control_5 => \hallTickCounter:CounterUDB:control_5\ ,
+            control_4 => \hallTickCounter:CounterUDB:control_4\ ,
+            control_3 => \hallTickCounter:CounterUDB:control_3\ ,
+            control_2 => \hallTickCounter:CounterUDB:control_2\ ,
+            control_1 => \hallTickCounter:CounterUDB:control_1\ ,
+            control_0 => \hallTickCounter:CounterUDB:control_0\ );
+        Properties:
+        {
+            cy_ctrl_mode_0 = "11111111"
+            cy_ctrl_mode_1 = "00000000"
+            cy_ext_reset = 0
+            cy_force_order = 1
+            cy_init_value = "00000000"
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+
+    controlcell: Name =\hallTickTimer:TimerUDB:sCTRLReg:SyncCtl:ctrlreg\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            control_7 => \hallTickTimer:TimerUDB:control_7\ ,
+            control_6 => \hallTickTimer:TimerUDB:control_6\ ,
+            control_5 => \hallTickTimer:TimerUDB:control_5\ ,
+            control_4 => \hallTickTimer:TimerUDB:control_4\ ,
+            control_3 => \hallTickTimer:TimerUDB:control_3\ ,
+            control_2 => \hallTickTimer:TimerUDB:control_2\ ,
+            control_1 => \hallTickTimer:TimerUDB:control_1\ ,
+            control_0 => \hallTickTimer:TimerUDB:control_0\ );
+        Properties:
+        {
+            cy_ctrl_mode_0 = "11111111"
+            cy_ctrl_mode_1 = "00000000"
+            cy_ext_reset = 0
+            cy_force_order = 1
+            cy_init_value = "00000000"
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+
+    controlcell: Name =\PWM_GateVoltage:PWMUDB:genblk1:ctrlreg\
+        PORT MAP (
+            clock => Net_704 ,
+            control_7 => \PWM_GateVoltage:PWMUDB:control_7\ ,
+            control_6 => \PWM_GateVoltage:PWMUDB:control_6\ ,
+            control_5 => \PWM_GateVoltage:PWMUDB:control_5\ ,
+            control_4 => \PWM_GateVoltage:PWMUDB:control_4\ ,
+            control_3 => \PWM_GateVoltage:PWMUDB:control_3\ ,
+            control_2 => \PWM_GateVoltage:PWMUDB:control_2\ ,
+            control_1 => \PWM_GateVoltage:PWMUDB:control_1\ ,
+            control_0 => \PWM_GateVoltage:PWMUDB:control_0\ );
+        Properties:
+        {
+            cy_ctrl_mode_0 = "11111111"
+            cy_ctrl_mode_1 = "00000000"
+            cy_ext_reset = 0
+            cy_force_order = 1
+            cy_init_value = "00000000"
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Count7 listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="DRQ listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Interrupt listing">
+
+    ------------------------------------------------------------
+    Interrupt listing
+    ------------------------------------------------------------
+
+    interrupt: Name =hallEffect_ISR
+        PORT MAP (
+            interrupt => Net_566 );
+        Properties:
+        {
+            int_type = "10"
+        }
+    </CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Technology mapping summary" expanded>
+
+------------------------------------------------------------
+Technology mapping summary
+------------------------------------------------------------
+
+Resource Type                 : Used : Free :  Max :  % Used
+============================================================
+Digital Clocks                :    2 :    6 :    8 : 25.00 %
+Analog Clocks                 :    0 :    4 :    4 :  0.00 %
+CapSense Buffers              :    0 :    2 :    2 :  0.00 %
+Digital Filter Block          :    0 :    1 :    1 :  0.00 %
+Interrupts                    :    1 :   31 :   32 :  3.13 %
+IO                            :   17 :   55 :   72 : 23.61 %
+Segment LCD                   :    0 :    1 :    1 :  0.00 %
+CAN 2.0b                      :    0 :    1 :    1 :  0.00 %
+I2C                           :    0 :    1 :    1 :  0.00 %
+USB                           :    0 :    1 :    1 :  0.00 %
+DMA Channels                  :    0 :   24 :   24 :  0.00 %
+Timer                         :    0 :    4 :    4 :  0.00 %
+UDB                           :      :      :      :        
+  Macrocells                  :   18 :  174 :  192 :  9.38 %
+  Unique P-terms              :   17 :  367 :  384 :  4.43 %
+  Total P-terms               :   17 :      :      :        
+  Datapath Cells              :    6 :   18 :   24 : 25.00 %
+  Status Cells                :    4 :   20 :   24 : 16.67 %
+    StatusI Registers         :    3 :      :      :        
+    Sync Cells (x1)           :    1 :      :      :        
+  Control Cells               :    3 :   21 :   24 : 12.50 %
+    Control Registers         :    3 :      :      :        
+Opamp                         :    0 :    4 :    4 :  0.00 %
+Comparator                    :    0 :    4 :    4 :  0.00 %
+Delta-Sigma ADC               :    0 :    1 :    1 :  0.00 %
+LPF                           :    0 :    2 :    2 :  0.00 %
+Analog (SC/CT) Blocks         :    0 :    4 :    4 :  0.00 %
+DAC                           :      :      :      :        
+  VIDAC                       :    0 :    4 :    4 :  0.00 %
+</CYPRESSTAG>
+Technology Mapping: Elapsed time ==> 0s.057ms
+Tech mapping phase: Elapsed time ==> 0s.295ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Placement">
+Initial Analog Placement Results:
+IO_3@[IOP=(6)][IoId=(3)] : LED(0) (fixed)
+IO_2@[IOP=(6)][IoId=(2)] : LED_Status(0) (fixed)
+IO_4@[IOP=(5)][IoId=(4)] : MOSFET_Gate(0) (fixed)
+IO_3@[IOP=(5)][IoId=(3)] : Pin_1(0) (fixed)
+IO_2@[IOP=(5)][IoId=(2)] : SyncOut(0) (fixed)
+IO_0@[IOP=(2)][IoId=(0)] : \LCD:LCDPort(0)\ (fixed)
+IO_1@[IOP=(2)][IoId=(1)] : \LCD:LCDPort(1)\ (fixed)
+IO_2@[IOP=(2)][IoId=(2)] : \LCD:LCDPort(2)\ (fixed)
+IO_3@[IOP=(2)][IoId=(3)] : \LCD:LCDPort(3)\ (fixed)
+IO_4@[IOP=(2)][IoId=(4)] : \LCD:LCDPort(4)\ (fixed)
+IO_5@[IOP=(2)][IoId=(5)] : \LCD:LCDPort(5)\ (fixed)
+IO_6@[IOP=(2)][IoId=(6)] : \LCD:LCDPort(6)\ (fixed)
+IO_7@[IOP=(2)][IoId=(7)] : hallEffectSensor(0) (fixed)
+IO_1@[IOP=(6)][IoId=(1)] : pushButton(0) (fixed)
+Analog Placement phase: Elapsed time ==> 0s.072ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Routing">
+Analog Routing phase: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Code Generation">
+============ Analog Final Answer Routes ============
+Dump of CyAnalogRoutingResultsDB
+Map of net to items {
+}
+Map of item to net {
+}
+Mux Info {
+}
+Dump of CyP35AnalogRoutingResultsDB
+IsVddaHalfUsedForComp = False
+IsVddaHalfUsedForSar0 = False
+IsVddaHalfUsedForSar1 = False
+Analog Code Generation phase: Elapsed time ==> 0s.929ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Placement">
+<CYPRESSTAG name="PLD Packing">
+<CYPRESSTAG name="PLD Packing Summary" expanded>
+
+------------------------------------------------------------
+PLD Packing Summary
+------------------------------------------------------------
+            Resource Type : Used : Free :  Max :  % Used
+    ====================================================
+                     PLDs :   10 :   38 :   48 :  20.83%
+
+<CYPRESSTAG name="PLD Statistics">
+
+        PLD Resource Type :     Average/LAB
+    =======================================
+                   Inputs :            2.80
+                   Pterms :            1.70
+               Macrocells :            1.80
+</CYPRESSTAG>
+<CYPRESSTAG name="Packed PLD Contents">
+Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
+</CYPRESSTAG>
+PLD Packing: Elapsed time ==> 0s.015ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Partitioning">
+<CYPRESSTAG name="Initial Partitioning Summary">
+Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
+<CYPRESSTAG name="Final Partitioning Summary">
+Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
+Partitioning: Elapsed time ==> 0s.046ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Simulated Annealing">
+Annealing: Elapsed time ==> 0s.000ms
+<CYPRESSTAG name="Simulated Annealing Results">
+The seed used for moves was 114161200.
+Inital cost was 219, final cost is 219 (0.00% improvement).</CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Final Placement Summary">
+
+------------------------------------------------------------
+Final Placement Summary
+------------------------------------------------------------
+
+       Resource Type :      Count : Avg Inputs : Avg Outputs
+    ========================================================
+                 UDB :          7 :       3.29 :       2.57
+<CYPRESSTAG name="Final Placement Details">
+<CYPRESSTAG name="Component Details">
+
+------------------------------------------------------------
+Component Placement Details
+------------------------------------------------------------
+UDB [UDB=(0,0)] is empty.
+UDB [UDB=(0,1)] is empty.
+UDB [UDB=(0,2)] is empty.
+UDB [UDB=(0,3)] is empty.
+UDB [UDB=(0,4)] is empty.
+UDB [UDB=(0,5)] is empty.
+UDB [UDB=(1,0)] is empty.
+UDB [UDB=(1,1)] is empty.
+UDB [UDB=(1,2)] is empty.
+UDB [UDB=(1,3)] is empty.
+UDB [UDB=(1,4)] is empty.
+UDB [UDB=(1,5)] is empty.
+UDB [UDB=(2,0)] contents:
+LAB@[UDB=(2,0)][LB=0] #macrocells=2, #inputs=4, #pterms=2
+{
+    [McSlotId=0]:     MacroCell: Name=\hallTickTimer:TimerUDB:status_tc\, Mode=(Combinatorial) @ [UDB=(2,0)][LB=0][MC=0]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \hallTickTimer:TimerUDB:control_7\ * 
+              \hallTickTimer:TimerUDB:per_zero\
+        );
+        Output = \hallTickTimer:TimerUDB:status_tc\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\hallTickTimer:TimerUDB:capt_fifo_load\, Mode=(Combinatorial) @ [UDB=(2,0)][LB=0][MC=1]
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\hallTickCounter:CounterUDB:count_stored_i\ * Net_566 * 
+              \hallTickTimer:TimerUDB:control_7\
+        );
+        Output = \hallTickTimer:TimerUDB:capt_fifo_load\ (fanout=5)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(2,0)][LB=1] #macrocells=1, #inputs=1, #pterms=1
+{
+    [McSlotId=0]: (empty)
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=\hallTickCounter:CounterUDB:count_stored_i\, Mode=(D-Register) @ [UDB=(2,0)][LB=1][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_566
+        );
+        Output = \hallTickCounter:CounterUDB:count_stored_i\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+datapathcell: Name =\hallTickTimer:TimerUDB:sT32:timerdp:u0\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        cs_addr_1 => \hallTickTimer:TimerUDB:control_7\ ,
+        cs_addr_0 => \hallTickTimer:TimerUDB:per_zero\ ,
+        f0_load => \hallTickTimer:TimerUDB:capt_fifo_load\ ,
+        chain_out => \hallTickTimer:TimerUDB:sT32:timerdp:carry0\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000001000000000000000100000001000000010000000000000010000000000000001000000000000000100000000000000010000000000000001000000011111111000000001111111111111111000000000000000000000001000000000000000000011000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+    Next in chain : \hallTickTimer:TimerUDB:sT32:timerdp:u1\
+
+statusicell: Name =\hallTickTimer:TimerUDB:rstSts:stsreg\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        status_3 => \hallTickTimer:TimerUDB:status_3\ ,
+        status_2 => \hallTickTimer:TimerUDB:status_2\ ,
+        status_1 => \hallTickTimer:TimerUDB:capt_fifo_load\ ,
+        status_0 => \hallTickTimer:TimerUDB:status_tc\ );
+    Properties:
+    {
+        cy_force_order = 1
+        cy_int_mask = "1111111"
+        cy_md_select = "0000011"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(2,1)] contents:
+LAB@[UDB=(2,1)][LB=0] #macrocells=3, #inputs=7, #pterms=3
+{
+    [McSlotId=0]: (empty)
+    [McSlotId=1]:     MacroCell: Name=\hallTickCounter:CounterUDB:status_2\, Mode=(Combinatorial) @ [UDB=(2,1)][LB=0][MC=1]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \hallTickCounter:CounterUDB:reload\ * 
+              !\hallTickCounter:CounterUDB:overflow_reg_i\
+        );
+        Output = \hallTickCounter:CounterUDB:status_2\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\hallTickCounter:CounterUDB:count_enable\, Mode=(Combinatorial) @ [UDB=(2,1)][LB=0][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \hallTickCounter:CounterUDB:control_7\ * 
+              !\hallTickCounter:CounterUDB:count_stored_i\ * Net_566
+        );
+        Output = \hallTickCounter:CounterUDB:count_enable\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\hallTickCounter:CounterUDB:status_0\, Mode=(Combinatorial) @ [UDB=(2,1)][LB=0][MC=3]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \hallTickCounter:CounterUDB:cmp_out_i\ * 
+              !\hallTickCounter:CounterUDB:prevCompare\
+        );
+        Output = \hallTickCounter:CounterUDB:status_0\ (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(2,1)][LB=1] #macrocells=2, #inputs=2, #pterms=2
+{
+    [McSlotId=0]:     MacroCell: Name=\hallTickCounter:CounterUDB:prevCompare\, Mode=(D-Register) @ [UDB=(2,1)][LB=1][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \hallTickCounter:CounterUDB:cmp_out_i\
+        );
+        Output = \hallTickCounter:CounterUDB:prevCompare\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]:     MacroCell: Name=\hallTickCounter:CounterUDB:overflow_reg_i\, Mode=(D-Register) @ [UDB=(2,1)][LB=1][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \hallTickCounter:CounterUDB:reload\
+        );
+        Output = \hallTickCounter:CounterUDB:overflow_reg_i\ (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+datapathcell: Name =\hallTickTimer:TimerUDB:sT32:timerdp:u3\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        cs_addr_1 => \hallTickTimer:TimerUDB:control_7\ ,
+        cs_addr_0 => \hallTickTimer:TimerUDB:per_zero\ ,
+        f0_load => \hallTickTimer:TimerUDB:capt_fifo_load\ ,
+        z0_comb => \hallTickTimer:TimerUDB:per_zero\ ,
+        f0_bus_stat_comb => \hallTickTimer:TimerUDB:status_3\ ,
+        f0_blk_stat_comb => \hallTickTimer:TimerUDB:status_2\ ,
+        chain_in => \hallTickTimer:TimerUDB:sT32:timerdp:carry2\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000001000000000000000100000001000000010000000000000010000000000000001000000000000000100000000000000010000000000000001000000011111111000000001111111111111111100000110000000000000001000000110000000000011000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+    Previous in chain : \hallTickTimer:TimerUDB:sT32:timerdp:u2\
+
+statusicell: Name =\hallTickCounter:CounterUDB:sSTSReg:stsreg\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        status_6 => \hallTickCounter:CounterUDB:status_6\ ,
+        status_5 => \hallTickCounter:CounterUDB:status_5\ ,
+        status_2 => \hallTickCounter:CounterUDB:status_2\ ,
+        status_1 => \hallTickCounter:CounterUDB:status_1\ ,
+        status_0 => \hallTickCounter:CounterUDB:status_0\ ,
+        interrupt => Net_172 );
+    Properties:
+    {
+        cy_force_order = 1
+        cy_int_mask = "1111111"
+        cy_md_select = "0011111"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+controlcell: Name =\hallTickCounter:CounterUDB:sCTRLReg:ctrlreg\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        control_7 => \hallTickCounter:CounterUDB:control_7\ ,
+        control_6 => \hallTickCounter:CounterUDB:control_6\ ,
+        control_5 => \hallTickCounter:CounterUDB:control_5\ ,
+        control_4 => \hallTickCounter:CounterUDB:control_4\ ,
+        control_3 => \hallTickCounter:CounterUDB:control_3\ ,
+        control_2 => \hallTickCounter:CounterUDB:control_2\ ,
+        control_1 => \hallTickCounter:CounterUDB:control_1\ ,
+        control_0 => \hallTickCounter:CounterUDB:control_0\ );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "11111111"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(2,2)] contents:
+LAB@[UDB=(2,2)][LB=0] #macrocells=3, #inputs=4, #pterms=3
+{
+    [McSlotId=0]:     MacroCell: Name=\Debouncer_1:DEBOUNCER[0]:d_sync_1\, Mode=(D-Register) @ [UDB=(2,2)][LB=0][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_178) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Debouncer_1:DEBOUNCER[0]:d_sync_0\
+        );
+        Output = \Debouncer_1:DEBOUNCER[0]:d_sync_1\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\Debouncer_1:DEBOUNCER[0]:d_sync_0\, Mode=(D-Register) @ [UDB=(2,2)][LB=0][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_178) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_309
+        );
+        Output = \Debouncer_1:DEBOUNCER[0]:d_sync_0\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]:     MacroCell: Name=Net_567, Mode=(Combinatorial) @ [UDB=(2,2)][LB=0][MC=3]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        !(
+              Net_16 * !Net_415
+        );
+        Output = Net_567 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(2,2)][LB=1] #macrocells=1, #inputs=2, #pterms=1
+{
+    [McSlotId=0]: (empty)
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=Net_415, Mode=(D-Register) @ [UDB=(2,2)][LB=1][MC=2]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_178) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Debouncer_1:DEBOUNCER[0]:d_sync_0\ * 
+              !\Debouncer_1:DEBOUNCER[0]:d_sync_1\
+        );
+        Output = Net_415 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+datapathcell: Name =\hallTickCounter:CounterUDB:sC8:counterdp:u0\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        cs_addr_2 => __ONE__ ,
+        cs_addr_1 => \hallTickCounter:CounterUDB:count_enable\ ,
+        cs_addr_0 => \hallTickCounter:CounterUDB:reload\ ,
+        ce0_comb => \hallTickCounter:CounterUDB:reload\ ,
+        z0_comb => \hallTickCounter:CounterUDB:status_1\ ,
+        cl1_comb => \hallTickCounter:CounterUDB:cmp_out_i\ ,
+        f0_bus_stat_comb => \hallTickCounter:CounterUDB:status_6\ ,
+        f0_blk_stat_comb => \hallTickCounter:CounterUDB:status_5\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000010101000010100000010000001000000101010000101000011111111000000001111111111111111101000000000000000000001000000000000000000011000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+synccell: Name =\Sync_1:genblk1[0]:INST\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        in => Net_567 ,
+        out => Net_566 );
+    Properties:
+    {
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(2,3)] is empty.
+UDB [UDB=(2,4)] is empty.
+UDB [UDB=(2,5)] is empty.
+UDB [UDB=(3,0)] contents:
+LAB@[UDB=(3,0)][LB=0] #macrocells=1, #inputs=2, #pterms=1
+{
+    [McSlotId=0]: (empty)
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=Net_820, Mode=(D-Register) @ [UDB=(3,0)][LB=0][MC=2]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_704) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \PWM_GateVoltage:PWMUDB:runmode_enable\ * 
+              \PWM_GateVoltage:PWMUDB:cmp1_less\
+        );
+        Output = Net_820 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+datapathcell: Name =\hallTickTimer:TimerUDB:sT32:timerdp:u1\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        cs_addr_1 => \hallTickTimer:TimerUDB:control_7\ ,
+        cs_addr_0 => \hallTickTimer:TimerUDB:per_zero\ ,
+        f0_load => \hallTickTimer:TimerUDB:capt_fifo_load\ ,
+        chain_in => \hallTickTimer:TimerUDB:sT32:timerdp:carry0\ ,
+        chain_out => \hallTickTimer:TimerUDB:sT32:timerdp:carry1\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000001000000000000000100000001000000010000000000000010000000000000001000000000000000100000000000000010000000000000001000000011111111000000001111111111111111100000110000000000000001000000110000000000011000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+    Previous in chain : \hallTickTimer:TimerUDB:sT32:timerdp:u0\
+    Next in chain : \hallTickTimer:TimerUDB:sT32:timerdp:u2\
+
+controlcell: Name =\hallTickTimer:TimerUDB:sCTRLReg:SyncCtl:ctrlreg\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        control_7 => \hallTickTimer:TimerUDB:control_7\ ,
+        control_6 => \hallTickTimer:TimerUDB:control_6\ ,
+        control_5 => \hallTickTimer:TimerUDB:control_5\ ,
+        control_4 => \hallTickTimer:TimerUDB:control_4\ ,
+        control_3 => \hallTickTimer:TimerUDB:control_3\ ,
+        control_2 => \hallTickTimer:TimerUDB:control_2\ ,
+        control_1 => \hallTickTimer:TimerUDB:control_1\ ,
+        control_0 => \hallTickTimer:TimerUDB:control_0\ );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "11111111"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(3,1)] contents:
+datapathcell: Name =\hallTickTimer:TimerUDB:sT32:timerdp:u2\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        cs_addr_1 => \hallTickTimer:TimerUDB:control_7\ ,
+        cs_addr_0 => \hallTickTimer:TimerUDB:per_zero\ ,
+        f0_load => \hallTickTimer:TimerUDB:capt_fifo_load\ ,
+        chain_in => \hallTickTimer:TimerUDB:sT32:timerdp:carry1\ ,
+        chain_out => \hallTickTimer:TimerUDB:sT32:timerdp:carry2\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000001000000000000000100000001000000010000000000000010000000000000001000000000000000100000000000000010000000000000001000000011111111000000001111111111111111100000110000000000000001000000110000000000011000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+    Previous in chain : \hallTickTimer:TimerUDB:sT32:timerdp:u1\
+    Next in chain : \hallTickTimer:TimerUDB:sT32:timerdp:u3\
+
+UDB [UDB=(3,2)] contents:
+LAB@[UDB=(3,2)][LB=0] #macrocells=1, #inputs=1, #pterms=1
+{
+    [McSlotId=0]: (empty)
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=\PWM_GateVoltage:PWMUDB:prevCompare1\, Mode=(D-Register) @ [UDB=(3,2)][LB=0][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_704) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \PWM_GateVoltage:PWMUDB:cmp1_less\
+        );
+        Output = \PWM_GateVoltage:PWMUDB:prevCompare1\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(3,2)][LB=1] #macrocells=3, #inputs=5, #pterms=3
+{
+    [McSlotId=0]:     MacroCell: Name=\PWM_GateVoltage:PWMUDB:status_2\, Mode=(Combinatorial) @ [UDB=(3,2)][LB=1][MC=0]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \PWM_GateVoltage:PWMUDB:runmode_enable\ * 
+              \PWM_GateVoltage:PWMUDB:tc_i\
+        );
+        Output = \PWM_GateVoltage:PWMUDB:status_2\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\PWM_GateVoltage:PWMUDB:runmode_enable\, Mode=(D-Register) @ [UDB=(3,2)][LB=1][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_704) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \PWM_GateVoltage:PWMUDB:control_7\
+        );
+        Output = \PWM_GateVoltage:PWMUDB:runmode_enable\ (fanout=3)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]:     MacroCell: Name=\PWM_GateVoltage:PWMUDB:status_0\, Mode=(D-Register) @ [UDB=(3,2)][LB=1][MC=3]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_704) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\PWM_GateVoltage:PWMUDB:prevCompare1\ * 
+              \PWM_GateVoltage:PWMUDB:cmp1_less\
+        );
+        Output = \PWM_GateVoltage:PWMUDB:status_0\ (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+datapathcell: Name =\PWM_GateVoltage:PWMUDB:sP8:pwmdp:u0\
+    PORT MAP (
+        clock => Net_704 ,
+        cs_addr_2 => \PWM_GateVoltage:PWMUDB:tc_i\ ,
+        cs_addr_1 => \PWM_GateVoltage:PWMUDB:runmode_enable\ ,
+        cl0_comb => \PWM_GateVoltage:PWMUDB:cmp1_less\ ,
+        z0_comb => \PWM_GateVoltage:PWMUDB:tc_i\ ,
+        f1_blk_stat_comb => \PWM_GateVoltage:PWMUDB:status_3\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000001000000000000001100000001000000010000000000000011000000000000001100000000000000110000000000000011000000000000001100000011111111000000001111111111111111101000000000000000000100000000000000000000011000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+statusicell: Name =\PWM_GateVoltage:PWMUDB:genblk8:stsreg\
+    PORT MAP (
+        clock => Net_704 ,
+        status_3 => \PWM_GateVoltage:PWMUDB:status_3\ ,
+        status_2 => \PWM_GateVoltage:PWMUDB:status_2\ ,
+        status_0 => \PWM_GateVoltage:PWMUDB:status_0\ );
+    Properties:
+    {
+        cy_force_order = 1
+        cy_int_mask = "1111111"
+        cy_md_select = "0100111"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+controlcell: Name =\PWM_GateVoltage:PWMUDB:genblk1:ctrlreg\
+    PORT MAP (
+        clock => Net_704 ,
+        control_7 => \PWM_GateVoltage:PWMUDB:control_7\ ,
+        control_6 => \PWM_GateVoltage:PWMUDB:control_6\ ,
+        control_5 => \PWM_GateVoltage:PWMUDB:control_5\ ,
+        control_4 => \PWM_GateVoltage:PWMUDB:control_4\ ,
+        control_3 => \PWM_GateVoltage:PWMUDB:control_3\ ,
+        control_2 => \PWM_GateVoltage:PWMUDB:control_2\ ,
+        control_1 => \PWM_GateVoltage:PWMUDB:control_1\ ,
+        control_0 => \PWM_GateVoltage:PWMUDB:control_0\ );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "11111111"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(3,3)] is empty.
+UDB [UDB=(3,4)] contents:
+LAB@[UDB=(3,4)][LB=0] #macrocells=1, #inputs=0, #pterms=0
+{
+    [McSlotId=0]:     MacroCell: Name=__ONE__, Mode=(Combinatorial) @ [UDB=(3,4)][LB=0][MC=0]
+        Total # of inputs        : 0
+        Total # of product terms : 0
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        !(
+            0
+        );
+        Output = __ONE__ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+UDB [UDB=(3,5)] is empty.
+Intr container @ [IntrContainer=(0)]: 
+  Intr@ [IntrContainer=(0)][IntrId=(0)] 
+    interrupt: Name =hallEffect_ISR
+        PORT MAP (
+            interrupt => Net_566 );
+        Properties:
+        {
+            int_type = "10"
+        }
+Drq container @ [DrqContainer=(0)]: empty
+Port 0 is empty
+Port 1 is empty
+Port 2 contains the following IO cells:
+[IoId=0]: 
+Pin : Name = \LCD:LCDPort(0)\
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: False
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => \LCD:LCDPort(0)\__PA ,
+        pad => \LCD:LCDPort(0)_PAD\ );
+    Properties:
+    {
+    }
+
+[IoId=1]: 
+Pin : Name = \LCD:LCDPort(1)\
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: False
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => \LCD:LCDPort(1)\__PA ,
+        pad => \LCD:LCDPort(1)_PAD\ );
+    Properties:
+    {
+    }
+
+[IoId=2]: 
+Pin : Name = \LCD:LCDPort(2)\
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: False
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => \LCD:LCDPort(2)\__PA ,
+        pad => \LCD:LCDPort(2)_PAD\ );
+    Properties:
+    {
+    }
+
+[IoId=3]: 
+Pin : Name = \LCD:LCDPort(3)\
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: False
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => \LCD:LCDPort(3)\__PA ,
+        pad => \LCD:LCDPort(3)_PAD\ );
+    Properties:
+    {
+    }
+
+[IoId=4]: 
+Pin : Name = \LCD:LCDPort(4)\
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: False
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => \LCD:LCDPort(4)\__PA ,
+        pad => \LCD:LCDPort(4)_PAD\ );
+    Properties:
+    {
+    }
+
+[IoId=5]: 
+Pin : Name = \LCD:LCDPort(5)\
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: False
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => \LCD:LCDPort(5)\__PA ,
+        pad => \LCD:LCDPort(5)_PAD\ );
+    Properties:
+    {
+    }
+
+[IoId=6]: 
+Pin : Name = \LCD:LCDPort(6)\
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: False
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => \LCD:LCDPort(6)\__PA ,
+        pad => \LCD:LCDPort(6)_PAD\ );
+    Properties:
+    {
+    }
+
+[IoId=7]: 
+Pin : Name = hallEffectSensor(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: RES_PULL_UP
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => hallEffectSensor(0)__PA ,
+        fb => Net_16 ,
+        annotation => Net_15 ,
+        pad => hallEffectSensor(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 3 is empty
+Port 4 is empty
+Port 5 contains the following IO cells:
+[IoId=2]: 
+Pin : Name = SyncOut(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => SyncOut(0)__PA ,
+        input => Net_172 ,
+        pad => SyncOut(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=3]: 
+Pin : Name = Pin_1(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_1(0)__PA ,
+        input => \hallTickCounter:CounterUDB:prevCompare\ ,
+        pad => Pin_1(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=4]: 
+Pin : Name = MOSFET_Gate(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => MOSFET_Gate(0)__PA ,
+        input => Net_820 ,
+        pad => MOSFET_Gate(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 6 contains the following IO cells:
+[IoId=1]: 
+Pin : Name = pushButton(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: RES_PULL_UP
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => pushButton(0)__PA ,
+        fb => Net_309 ,
+        pad => pushButton(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=2]: 
+Pin : Name = LED_Status(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => LED_Status(0)__PA ,
+        annotation => Net_4822 ,
+        pad => LED_Status(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=3]: 
+Pin : Name = LED(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => LED(0)__PA ,
+        input => Net_566 ,
+        pad => LED(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 12 is empty
+Port 15 is empty
+CAN 2.0b group 0: empty
+Cache group 0: empty
+CapSense group 0: empty
+Clock group 0: 
+    Clock Block @ F(Clock,0): 
+    clockblockcell: Name =ClockBlock
+        PORT MAP (
+            imo => ClockBlock_IMO ,
+            pllout => ClockBlock_PLL_OUT ,
+            ilo => ClockBlock_ILO ,
+            clk_100k => ClockBlock_100k ,
+            clk_1k => ClockBlock_1k ,
+            clk_32k => ClockBlock_32k ,
+            xtal => ClockBlock_XTAL ,
+            clk_32k_xtal => ClockBlock_XTAL_32KHZ ,
+            clk_sync => ClockBlock_MASTER_CLK ,
+            clk_bus_glb => ClockBlock_BUS_CLK ,
+            clk_bus => ClockBlock_BUS_CLK_local ,
+            dclk_glb_0 => Net_704 ,
+            dclk_0 => Net_704_local ,
+            dclk_glb_1 => Net_178 ,
+            dclk_1 => Net_178_local );
+        Properties:
+        {
+        }
+Comparator group 0: empty
+Digital Filter Block group 0: empty
+Delta-Sigma ADC group 0: empty
+Decimator group 0: empty
+EMIF group 0: empty
+I2C group 0: empty
+Segment LCD group 0: empty
+LVD group 0: empty
+PM group 0: empty
+Analog (SC/CT) Blocks group 0: empty
+SPC group 0: empty
+Timer group 0: empty
+USB group 0: empty
+VIDAC group 0: empty
+Opamp group 0: empty
+CapSense Buffers group 0: empty
+Vref group 0: empty
+LPF group 0: empty
+</CYPRESSTAG>
+<CYPRESSTAG name="Port Configuration Details">
+
+------------------------------------------------------------
+Port Configuration report
+------------------------------------------------------------
+     |     |       | Interrupt |                  |                     | 
+Port | Pin | Fixed |      Type |       Drive Mode |                Name | Connections
+-----+-----+-------+-----------+------------------+---------------------+---------------------------------------------
+   2 |   0 |     * |      NONE |         CMOS_OUT |    \LCD:LCDPort(0)\ | 
+     |   1 |     * |      NONE |         CMOS_OUT |    \LCD:LCDPort(1)\ | 
+     |   2 |     * |      NONE |         CMOS_OUT |    \LCD:LCDPort(2)\ | 
+     |   3 |     * |      NONE |         CMOS_OUT |    \LCD:LCDPort(3)\ | 
+     |   4 |     * |      NONE |         CMOS_OUT |    \LCD:LCDPort(4)\ | 
+     |   5 |     * |      NONE |         CMOS_OUT |    \LCD:LCDPort(5)\ | 
+     |   6 |     * |      NONE |         CMOS_OUT |    \LCD:LCDPort(6)\ | 
+     |   7 |     * |      NONE |      RES_PULL_UP | hallEffectSensor(0) | FB(Net_16)
+-----+-----+-------+-----------+------------------+---------------------+---------------------------------------------
+   5 |   2 |     * |      NONE |         CMOS_OUT |          SyncOut(0) | In(Net_172)
+     |   3 |     * |      NONE |         CMOS_OUT |            Pin_1(0) | In(\hallTickCounter:CounterUDB:prevCompare\)
+     |   4 |     * |      NONE |         CMOS_OUT |      MOSFET_Gate(0) | In(Net_820)
+-----+-----+-------+-----------+------------------+---------------------+---------------------------------------------
+   6 |   1 |     * |      NONE |      RES_PULL_UP |       pushButton(0) | FB(Net_309)
+     |   2 |     * |      NONE |         CMOS_OUT |       LED_Status(0) | 
+     |   3 |     * |      NONE |         CMOS_OUT |              LED(0) | In(Net_566)
+----------------------------------------------------------------------------------------------------------------------
+</CYPRESSTAG>
+</CYPRESSTAG>
+</CYPRESSTAG>
+Digital component placer commit/Report: Elapsed time ==> 0s.015ms
+Digital Placement phase: Elapsed time ==> 2s.249ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Routing">
+Routing successful.
+Digital Routing phase: Elapsed time ==> 3s.297ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream and API generation">
+Bitstream and API generation phase: Elapsed time ==> 0s.299ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream verification">
+Bitstream verification phase: Elapsed time ==> 0s.059ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Static timing analysis">
+Timing report is in SpeedControl_timing.html.
+Static timing analysis phase: Elapsed time ==> 0s.687ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Data reporting">
+Data reporting phase: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Database update...">
+Design database save phase: Elapsed time ==> 0s.437ms
+</CYPRESSTAG>
+cydsfit: Elapsed time ==> 8s.406ms
+</CYPRESSTAG>
+Fitter phase: Elapsed time ==> 8s.484ms
+API generation phase: Elapsed time ==> 2s.463ms
+Dependency generation phase: Elapsed time ==> 0s.051ms
+Cleanup phase: Elapsed time ==> 0s.031ms

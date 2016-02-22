@@ -1,0 +1,156 @@
+C51 COMPILER V9.51   PID_CONTROL                                                           02/20/2016 01:27:30 PAGE 1   
+
+
+C51 COMPILER V9.51, COMPILATION OF MODULE PID_CONTROL
+OBJECT MODULE PLACED IN .\DP8051\DP8051_Keil_951\Debug\pid_control.obj
+COMPILER INVOKED BY: C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\import\keil\pk51\9.51\C51\BIN\c51.exe 
+                    -.\pid_control.c NOIV LARGE MODDP2 OMF2 VB(1) NOIP INCDIR(.,Generated_Source\PSoC3) FF(3) DB DF(DEBUG) WL(2) PR(.\DP8051\
+                    -DP8051_Keil_951\Debug/pid_control.lst) CD OT(2,SIZE) OJ(.\DP8051\DP8051_Keil_951\Debug\pid_control.obj)
+
+line level    source
+
+   1          /* ========================================
+   2           *
+   3           * Copyright YOUR COMPANY, THE YEAR
+   4           * All Rights Reserved
+   5           * UNPUBLISHED, LICENSED SOFTWARE.
+   6           *
+   7           * CONFIDENTIAL AND PROPRIETARY INFORMATION
+   8           * WHICH IS THE PROPERTY OF your company.
+   9           *
+  10           * ========================================
+  11          */
+  12          
+  13          #include <project.h>
+  14          #include <math.h>
+  15          #include "pid_control.h"
+  16          #include "blinky.h"
+  17          
+  18          /*
+  19          ************************************************************************ 
+  20          * File: pid_control.c
+  21          * verion: 1.0
+  22          *
+  23          * Description:
+  24          *   ---
+  25          ************************************************************************
+  26          */
+  27          
+  28          float fDeltaV;                   // Difference between instantaneous speed and ref speed 
+  29          float fPWM_out;                  // Value written to the MOSFET gate
+  30          
+  31          float pid_control(float fCurSpeed, float fRefSpeed)
+  32          {
+  33   1          Blinky();
+  34   1          
+  35   1          fDeltaV = (fCurSpeed - fRefSpeed);
+  36   1          
+  37   1          if (fDeltaV <= EPSILON)
+  38   1          {
+  39   2              fPWM_out = PWM_REF;
+  40   2          } else {
+  41   2              fPWM_out = ( - tanh(fDeltaV) + 1 ) * PWM_Period/2;
+  42   2          }
+  43   1          
+  44   1          return fPWM_out;
+  45   1      }
+  46          
+  47          
+  48          
+  49          /* [] END OF FILE */
+C51 COMPILER V9.51   PID_CONTROL                                                           02/20/2016 01:27:30 PAGE 2   
+
+ASSEMBLY LISTING OF GENERATED OBJECT CODE
+
+
+             ; FUNCTION _pid_control (BEGIN)
+                                           ; SOURCE LINE # 31
+0000 900000      R     MOV     DPTR,#fCurSpeed
+0003 120000      E     LCALL   ?C?LSTXDATA
+                                           ; SOURCE LINE # 32
+                                           ; SOURCE LINE # 33
+0006 120000      E     LCALL   Blinky
+                                           ; SOURCE LINE # 35
+0009 900000      R     MOV     DPTR,#fRefSpeed
+000C 120000      E     LCALL   ?C?LLDXDATA0
+000F 900000      R     MOV     DPTR,#fCurSpeed
+0012 120000      E     LCALL   ?C?LLDXDATA
+0015 120000      E     LCALL   ?C?FPSUB
+0018 900000      R     MOV     DPTR,#fDeltaV
+001B 120000      E     LCALL   ?C?LSTXDATA
+                                           ; SOURCE LINE # 37
+001E 7FCD              MOV     R7,#0CDH
+0020 7ECC              MOV     R6,#0CCH
+0022 7D4C              MOV     R5,#04CH
+0024 7C3E              MOV     R4,#03EH
+0026 900000      R     MOV     DPTR,#fDeltaV
+0029 120000      E     LCALL   ?C?LLDXDATA0
+002C 120000      E     LCALL   ?C?FPCMP3
+002F 6002              JZ      $ + 4H
+0031 5010              JNC     ?C0001
+                                           ; SOURCE LINE # 38
+                                           ; SOURCE LINE # 39
+0033 7F00              MOV     R7,#00H
+0035 7E00              MOV     R6,#00H
+0037 7D34              MOV     R5,#034H
+0039 7C42              MOV     R4,#042H
+003B 900000      R     MOV     DPTR,#fPWM_out
+003E 120000      E     LCALL   ?C?LSTXDATA
+                                           ; SOURCE LINE # 40
+0041 8038              SJMP    ?C0002
+0043         ?C0001:
+                                           ; SOURCE LINE # 41
+0043 900000      R     MOV     DPTR,#fDeltaV
+0046 120000      E     LCALL   ?C?LLDXDATA
+0049 120000      E     LCALL   _tanh
+004C A804              MOV     R0,AR4
+004E A905              MOV     R1,AR5
+0050 AA06              MOV     R2,AR6
+0052 AB07              MOV     R3,AR7
+0054 7F00              MOV     R7,#00H
+0056 7E00              MOV     R6,#00H
+0058 7D80              MOV     R5,#080H
+005A 7C3F              MOV     R4,#03FH
+005C 120000      E     LCALL   ?C?FPSUB
+005F 7B00              MOV     R3,#00H
+0061 7A00              MOV     R2,#00H
+0063 79C6              MOV     R1,#0C6H
+0065 7842              MOV     R0,#042H
+0067 120000      E     LCALL   ?C?FPMUL
+006A 7B00              MOV     R3,#00H
+006C 7A00              MOV     R2,#00H
+006E 7900              MOV     R1,#00H
+0070 7840              MOV     R0,#040H
+0072 120000      E     LCALL   ?C?FPDIV
+C51 COMPILER V9.51   PID_CONTROL                                                           02/20/2016 01:27:30 PAGE 3   
+
+0075 900000      R     MOV     DPTR,#fPWM_out
+0078 120000      E     LCALL   ?C?LSTXDATA
+                                           ; SOURCE LINE # 42
+007B         ?C0002:
+                                           ; SOURCE LINE # 44
+007B 900000      R     MOV     DPTR,#fPWM_out
+007E 120000      E     LCALL   ?C?LLDXDATA
+                                           ; SOURCE LINE # 45
+0081         ?C0003:
+0081 22                RET     
+             ; FUNCTION _pid_control (END)
+
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    130    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =      8       8
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

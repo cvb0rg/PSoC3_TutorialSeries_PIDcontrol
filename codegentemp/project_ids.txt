@@ -1,0 +1,10 @@
+E:\Win10\PSoC Creator\302_CarLab\PSoC3_Tutorial.cydsn\PSoC3_Tutorial.cyprj|697d7573-2b7c-42a7-8e2b-f44d00c91a60
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|68456c88-054c-4f54-8eb3-f72a61f017a5
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|6082aa5f-54b5-41db-993a-9fd9e38e33dc
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|713472ac-3387-4841-8733-a0177573e7c9
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|6542e1ec-167d-428e-b1f2-65a26010dbc3
+E:\Win10\PSoC Creator\302_CarLab\CapSense_CSD_Design01.cydsn\CapSense_CSD_Design01.cyprj|fcc985d8-211c-47c8-b0a2-dc469782dc91
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|47da5cfa-b1b1-4d6a-a008-a30e65ae0579
+E:\Win10\PSoC Creator\302_CarLab\Counter01.cydsn\Counter01.cyprj|6d789c5d-6484-4eb7-b5c9-c2465c4ed421
+E:\Win10\PSoC Creator\302_CarLab\SpeedControl.cydsn\SpeedControl.cyprj|368fe135-ec3f-47c1-be86-178089305bb9
+E:\Win10\PSoC Creator\302_CarLab\Timer01.cydsn\Timer01.cyprj|1c92cb37-55e5-44b7-b868-0b6b605cbf0d
